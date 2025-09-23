@@ -97,6 +97,7 @@ header {
     gap: 30px;
 }
 .product-card {
+    display: grid;
     background-color: white;
     border-radius: var(--border-radius);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -105,12 +106,13 @@ header {
     box-shadow: #111 15px 9px 20px;
 }
 .product-card {
+  display: grid;
   border: 2px solid #000;
   border-radius: 10px;    
   padding: 15px;          
   width: 250px;           
   box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
-   text-align: center;
+  text-align: center;
 }
 .product-card-img {
   max-width: 300px;
