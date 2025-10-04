@@ -117,6 +117,7 @@ header {
 .product-card-img {
   max-width: 300px;
   border-radius: 8px; 
+    grid-template-columns: repeat(3, 1fr);
 }
 #content {
     background-color: white;
