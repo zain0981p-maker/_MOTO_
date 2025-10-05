@@ -170,7 +170,7 @@ footer {
 }
 
 /* Responsive (mobilga moslashtirish) */
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   #box {
     width: 45%;
   }
