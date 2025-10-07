@@ -10,25 +10,30 @@ body {
   padding: 20px;
 }
 
-/* Header */
+
 header {
   background-color: #222;
   color: #fff;
   padding: 15px 0;
+  
 }
 
 .container {
   width: 90%;
   margin: auto;
+  position: sticky;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: sticky;
 }
 
 .logo {
+  position: sticky;  
   font-size: 24px;
   font-weight: bold;
   color: white;
@@ -39,19 +44,21 @@ header {
   list-style: none;
   display: flex;
   gap: 20px;
+  position: sticky;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+  position: sticky;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
 }
 
-/* Kartalar qutisi */
+
 .produc-card {
   max-width: 1300px;
   margin: 30px auto;
@@ -169,7 +176,7 @@ footer {
   color: #ccc;
 }
 
-/* Responsive (mobilga moslashtirish) */
+
 @media (max-width: 1024px) {
   #box {
     width: 45%;
