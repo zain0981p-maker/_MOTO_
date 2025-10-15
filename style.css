@@ -64,14 +64,15 @@ header {
   margin: 30px auto;
 }
 
-.produc-card h1 {
+#lol{
   text-align: center;
+  margin-top: 10px;
   margin-bottom: 30px;
   font-size: 32px;
   color: #333;
 }
 
-/* Mahsulotlar grid holatida */
+
 .produc-card {
   display: flex;
   flex-wrap: wrap;
@@ -79,7 +80,7 @@ header {
   justify-content: center;
 }
 
-/* Har bir karta (box) */
+
 #box {
   width: 400px;
   height: 340px;
@@ -134,13 +135,13 @@ header {
   background-color: #0d8ae3;
 }
 
-/* Footer */
 footer {
   display: flex;
   justify-content: space-around;
   background-color: #333;
   color: white;
   padding: 40px 20px;
+  width: 100%;
   flex-wrap: wrap;
   margin-top: 50px;
 }
@@ -177,11 +178,19 @@ footer {
 }
 
 
-@media (max-width: 1024px) {
+
+@media (min-width: 1025px) {
+  #box {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
   #box {
     width: 45%;
   }
 }
+
 
 @media (max-width: 768px) {
   #box {
